@@ -1,0 +1,6 @@
+Real = float(input('Digite o valor que você deseja converter: R$ '))
+Dolar = float(4.72)
+Euro = float(5.14)
+print()
+print('A conversão de R$', Real,'para Dolar é US$', (Real*Dolar))
+print('E o valor em de R$', Real, 'em Euro é €', (Real*Euro))
